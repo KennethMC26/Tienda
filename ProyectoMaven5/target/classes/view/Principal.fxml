@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="720.0" prefWidth="1280.0" styleClass="mainFxmlClass" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.kennethmazariegos.controller.PrincipalController">
+    <stylesheets>
+        <URL value="@principal.css" />
+    </stylesheets>
+   <children>
+      <Button layoutX="96.0" layoutY="70.0" mnemonicParsing="false" onAction="#GoProductos" prefHeight="55.0" prefWidth="130.0" text="productos" />
+      <Button layoutX="96.0" layoutY="172.0" mnemonicParsing="false" onAction="#GoInicio" prefHeight="55.0" prefWidth="130.0" text="Inicio" />
+   </children>
+</AnchorPane>

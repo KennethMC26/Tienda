@@ -1,0 +1,7 @@
+org\kennethmazariegos\controller\ProductosController.class
+org\kennethmazariegos\controller\InicioController.class
+org\kennethmazariegos\model\Producto.class
+org\kennethmazariegos\controller\LoginController.class
+org\kennethmazariegos\controller\PrincipalController.class
+org\kennethmazariegos\database\Conexion.class
+org\kennethmazariegos\System\Main.class
