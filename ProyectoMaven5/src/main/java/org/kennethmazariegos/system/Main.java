@@ -29,7 +29,7 @@ public class Main extends Application{
         this.escenarioPrincipal = stage;
         InicioView();
         
-        escenarioPrincipal.setTitle("Veterinaria Dr Patitas");
+        escenarioPrincipal.setTitle("Tienda");
         escenarioPrincipal.show();
     }
     
