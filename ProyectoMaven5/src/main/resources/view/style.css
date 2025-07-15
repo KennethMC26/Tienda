@@ -1,0 +1,25 @@
+.root-pane {
+    -fx-background-color: #f0f0f0;
+}
+
+.label {
+    -fx-text-fill: #333333;
+}
+
+.button {
+    -fx-background-color: #007bff;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-padding: 8px 16px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #0056b3;
+}
+
+.button:pressed {
+    -fx-background-color: #004085;
+    -fx-translate-y: 1px;
+}

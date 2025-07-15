@@ -14,6 +14,7 @@ import org.kennethmazariegos.controller.InicioController;
 import org.kennethmazariegos.controller.LoginController;
 import org.kennethmazariegos.controller.PrincipalController;
 import org.kennethmazariegos.controller.ProductosController;
+import org.kennethmazariegos.controller.RegistroController;
 
 public class Main extends Application{
     private final String URL="/view/";
@@ -73,7 +74,7 @@ public class Main extends Application{
     
     public void PrincipalView(){
         try {
-            PrincipalController prc = (PrincipalController)cambiarEscena("Principal.fxml", 1280, 720);
+            PrincipalController prc = (PrincipalController)cambiarEscena("MenuPrincipalView.fxml", 1280, 720);
             prc.setPrincipal(this);
         } catch (Exception e) {
             System.out.println("Error al cambio en Principal...");
@@ -86,7 +87,17 @@ public class Main extends Application{
             ProductosController pcc = (ProductosController)cambiarEscena("ProductosView.fxml", 1280, 720);
             pcc.setPrincipal(this);
         } catch (Exception e) {
-            System.out.println("Error al cambio en Principal...");
+            System.out.println("Error al cambio en Productos...");
+                    e.printStackTrace();
+        }
+    }
+    
+    public void RegistroView(){
+        try {
+            RegistroController rc = (RegistroController)cambiarEscena("RegistroView.fxml", 1280, 720);
+            rc.setPrincipal(this);
+        } catch (Exception e) {
+            System.out.println("Error al cambio en Registro...");
                     e.printStackTrace();
         }
     }

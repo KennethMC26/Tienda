@@ -28,6 +28,10 @@ private Main principal;
         principal.InicioView();
     }
     
+        public void GoLogin(){
+        principal.LoginView();
+    }
+    
     public void GoProductos(){
         principal.ProductosView();
     }
