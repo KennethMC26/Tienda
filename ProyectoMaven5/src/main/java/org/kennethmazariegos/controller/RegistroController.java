@@ -1,12 +1,7 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/javafx/FXMLController.java to edit this template
- */
 package org.kennethmazariegos.controller;
 
 import java.net.URL;
 import java.util.ResourceBundle;
-import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
@@ -15,11 +10,10 @@ import org.kennethmazariegos.system.Main;
 /**
  * FXML Controller class
  *
- * @author informatica
+ * @author WELCOME KENNETH
  */
-public class LoginController implements Initializable {
+public class RegistroController implements Initializable {
 private Main principal;
-    @FXML private Button log, regresar;
     
     public void setPrincipal(Main principal) {
         this.principal = principal;
@@ -30,15 +24,15 @@ private Main principal;
         
     }  
     
-    public void GoPrincipal(){
-        principal.PrincipalView();
-    }
-    
     public void GoInicio(){
         principal.InicioView();
     }
     
-    public void GoRegistro() {
-        principal.RegistroView();
+        public void GoLogin(){
+        principal.LoginView();
     }
+    public void GoPrincipal(){
+        principal.PrincipalView();
+    }
+    
 }
