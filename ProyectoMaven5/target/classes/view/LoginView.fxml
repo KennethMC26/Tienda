@@ -32,7 +32,7 @@
             <Font size="20.0" />
          </font>
       </Label>
-      <TextField layoutX="389.0" layoutY="430.0" prefHeight="50.0" prefWidth="500.0" />
+      <TextField fx:id="txtCorreo" layoutX="389.0" layoutY="430.0" prefHeight="50.0" prefWidth="500.0" />
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="490.0" layoutY="500.0" prefHeight="30.0" prefWidth="300.0" text="Contraseña">
          <font>
             <Font size="20.0" />
@@ -46,7 +46,7 @@
             <String fx:value="botonesh" />
          </styleClass>
       </Button>
-      <PasswordField layoutX="389.0" layoutY="550.0" prefHeight="50.0" prefWidth="500.0" />
+      <PasswordField fx:id="txtContrasena" layoutX="389.0" layoutY="550.0" prefHeight="50.0" prefWidth="500.0" />
       <Label alignment="CENTER" contentDisplay="CENTER" layoutX="463.0" layoutY="186.0" prefHeight="58.0" prefWidth="358.0" text="Iniciar Sesión">
          <font>
             <Font size="40.0" />
